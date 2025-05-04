@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet"  href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manges City</title>
+     <!-- 引入axios -->
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="search">
+        <input type="text" id="cityInput" placeholder="请输入城市名称（如：北京）">
+        <button calss="add-btn" id="addBtn">Add City</button>
+      </div>
+      <div class="citylist">
+        <h1>City List</h1>
+        <ul class="city-list" id="cityList"></ul>
+      </div>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
